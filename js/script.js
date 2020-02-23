@@ -36,4 +36,4 @@ function startup() { //windowload
 
 }
 
-document.addEventListener("DOMContentLoaded", startup)
+document.addEventListener("DOMContentLoaded", startup) // fires when base html page loads and parses without waiting for anything else 
