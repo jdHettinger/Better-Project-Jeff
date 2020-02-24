@@ -1,88 +1,68 @@
 
-
 /* Body and html basic format */
 body, html {
-  height: 100%;
-  width: 100%;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-
-/* Background page - Pitt */
-#home {
-    background-image: url("../img/pittBG.jpg");
     height: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;  
-    padding-top: 100px;    
-}
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
 
-/* #TODO: Revist....might not need */
+  /* Background page - Pitt */
+  #home {
+      background-image: url("../img/UI_Back_2.jpg");
+      height: 100%;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;  
+  }
 
-.nav-def {
-  background-color: rgb(65, 105, 225, 1);
-}
+  #rcorners1 {
+    border-radius: 25px;
+    background: #003891;
+    width: 358.8px;
+    height: 276px;
+   
+  }
 
-/* Golden Text style */
-.golden {
-  color: gold;
-}
+  .upper-stage {
+    align-content: center;
+    padding-bottom: 120px;
+  }
 
-/* Positioning */
-.list-space{
-  text-align: center;
-}
+  .r-middle {
+    display: flexbox;
+    justify-content: center;
+  }
+ 
+  .img-size {
+    height: 115px;
+    width: 149.5px;
+      position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-85%);
+    -webkit-transform: translateX(-50%) translateY(-85%);
+    transform: translateX(-50%) translateY(-85%);
+  }
 
-/* Format picture to smaller */
-.small-pic {
-  height: 100px;
-  width: 125px;
-  transform: rotate(90deg);
-}
+  .m-row {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+  }
 
-/*  =* GENERAL COLUMN STRUCTURE AND BEHAVIOR *= */
+  .m-colone {
+    display: flexbox;
+    background-color: aqua;
+    height: 150px;
+    width: 150px;
+  }
+  
+  .m-coltwo {
+    display: flexbox;
+    background-color: beige;
+    height: 150px;
+    width: 250px;
+  }
 
-.wrapper {
-	padding: 5px;
-	max-width: 960px;
-	width: 95%;
-  margin: 20px auto;
-    background-color: black;
-}
-
-.columns {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  margin: 5px 0;
-}
-
-.column {
-  flex: 1;
-  border: 1px solid;
-  background-color: rgb(49, 132, 204);
-  opacity: 80%;
-  margin: 2px;
-  padding: 10px;
-}
-
-/*  =*CREATING THE OVERLAY EFFECT*=  */
-
-#overlay {
-  position: fixed;
-  display: none; /*Hidden first */
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background-color: royalblue;
-  opacity: 50%;
-  z-index: 2;
-  cursor: pointer;
-  transition: ease;
-}
-
-/*  */
