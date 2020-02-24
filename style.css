@@ -20,14 +20,14 @@ body, html {
   #rcorners1 {
     border-radius: 25px;
     background: #003891;
-    width: 358.8px;
-    height: 276px;
+    width: 287.04px;
+    height: 207px;
    
   }
 
   .upper-stage {
     align-content: center;
-    padding-bottom: 120px;
+    padding-bottom: 80px;
   }
 
   .r-middle {
