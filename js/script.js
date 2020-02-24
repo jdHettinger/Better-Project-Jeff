@@ -12,6 +12,7 @@ function startup() { //windowload
         statusbox.innerHTML = "Status HTML: touchstart <br> Client X: " + startpos + "px";
         alert(this.id + "congrats u tocuhed it");
         start.preventDefault(); // prevent default associated act from occuring
+        
     }, false);
 
     // end of touch
