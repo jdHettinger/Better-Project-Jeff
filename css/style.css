@@ -35,6 +35,12 @@ body, html {
     justify-content: center;
   }
 
+  .mod-middle {
+    display: flexbox;
+    justify-content: space-evenly;
+    padding-top: 20px;
+  }
+
   .img-size {
     height: 230px;
     width: 299px;
