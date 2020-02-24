@@ -20,8 +20,8 @@ body, html {
   #rcorners1 {
     border-radius: 25px;
     background: #003891;
-    width: 448.5px;
-    height: 345px;
+    width: 287.04px;
+    height: 207px;
     /* opacity: 50%; */
   }
 
@@ -42,8 +42,8 @@ body, html {
   }
 
   .img-size {
-    height: 230px;
-    width: 299px;
+    height: 115px;
+    width: 149.5px;
     position: absolute;
     top: 50%;
     left: 50%;
