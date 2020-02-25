@@ -7,9 +7,16 @@ function startup() { //windowload
     //start of touch
     btn.addEventListener("touchstart", function(start) {
         var touchArea = start.changedTouches[0]; // takes first point of touch
+        
         startpos = parseInt(touchArea.clientX); // takes value (positon of touch relative to the left most side of the browser) and parses to an int value.
+
+        console.log("position: " + startpos + "px");
+        
         alert(this.id + "congrats u tocuhed it");
+
         start.preventDefault(); // prevent default associated act from occuring
+
+        
 
     }, false);
 
@@ -35,22 +42,9 @@ function startup() { //windowload
 
 document.addEventListener("DOMContentLoaded", startup) // fires when base html page loads and parses without waiting for anything else 
 
-function open_in_new_window(id, new_page_title, features) {
-    var new_window;
-
-    if(features !== undefined && features !== '') {
-        new_window = window.open('', '_blank', features);
-    }
-    else {
-        new_window = window.open('', '_blank');
-    }
-
-    var html_contents = document.getElementById(id);
-    if(html_contents !== null) {
-        new_window.document.write('<!doctype html><html><head><title>' + new_page_title + '</title><meta charset="UTF-8" /></head><body>' + html_contents.innerHTML + '</body></html>');
-    }
+var newwindow;
+function poptastic(url)
+{
+	newwindow=window.open(url,'name','height=400,width=200');
+	if (window.focus) {newwindow.focus()}
 }
-
-setTimeout(function(){
-    $('#Modal').modal('hide')
-  }, 4000);
