@@ -71,3 +71,9 @@ body, html {
     width: 250px;
   }
 
+  .padd-middle {
+    display: flexbox;
+    justify-content: space-evenly;
+    padding-top: 50px;
+  }
+
