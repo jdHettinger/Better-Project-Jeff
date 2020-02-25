@@ -23,6 +23,6 @@ function pop_new_window(url)
     if (window.focus) {newwindow.focus()} //request to bring popup to front / over main page
     setTimeout(function(){  //local function target
         newwindow.close() 
-    }, 30000); //timer to close window 
+    }, 300000); //timer to close window 
 }
 
