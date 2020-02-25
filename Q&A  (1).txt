@@ -1,0 +1,25 @@
+﻿Q&A for Future Contributors of Project Jeff 
+
+Q: Who created this project? 
+A: Emma Zentarsky, Jack Hettinger, Jesse Yowonske, Javier Lara, Yangshan Deng, and Yufei Tang. 
+
+Q: What is the purpose of this project? 
+A: A touch-screen interface promoting events and news pertaining to the Film and Media Studies department at the University of Pittsburgh. The kiosk will be placed in a central area and will be accessible to interested students, faculty, and campus visitors. 
+
+Q: What was the most valuable feedback the team received? 
+A: Jeff Aziz and Stephen Quigley gave us good suggestions about the format and layout of the page, since we were uncertain of what they were imagining. 
+
+Q: What was the biggest obstacle that the team faced and how did they overcome it? 
+A: Identifying and correcting issues with the code? 
+
+Q: What needs to be maintained in future content? 
+A: The code of conduct (found here: https://github.com/jdh1999/Better-Project-Jeff/blob/master/Code%20of%20Conduct%20.docx) as well as the basic integrity of the interface. At all times, the primary goal should be to present accurate information in an accessible way in order to teach individuals about the Film and Media Studies department. 
+
+Q: Is there anything that future contributors should know in regard to the code? 
+A: This interface was built specifically for the assignment, so it would be difficult to adapt to a different project. The touch screen is a work in progress, so it could be optimized for better use in the future. 
+
+Q: Is there anything that future contributors should know in regard to the Slack platform? 
+A: Slack is our collaboration platform of choice, but any future contributors may choose to use another way of communicating. We used Github to upload our code, but all communication was done through Slack and team meetings. 
+
+Q: Is there anything else future contributors should know?
+A: We used the Bootstrap 4 platform to get structure shortcuts in the code to help build the website more quickly. Without it, we would have had to start from scratch, which would have been significantly more time-consuming. 

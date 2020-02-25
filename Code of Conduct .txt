@@ -1,0 +1,33 @@
+﻿Contributor Code of Conduct
+
+As the creators and contributors of this interface, we pledge to keep this project in an atmosphere in which there is a zero-tolerance policy for discrimination of any kind. As the creators, we began this project with no intolerance regardless of race, gender, sexual orientation, disability, or religion, and expect all future contributors to maintain these standards. 
+
+Our Standards
+
+- Language should remain inclusive and welcoming
+- All viewpoints should be respected and investigated
+- This is a project that demands constructive criticism in order to be the most user-friendly – welcome suggestions with an open mind
+- Keep the user in mind – they are the ones who will interact with the technology 
+- This is a professional and public interface – anything that would not be acceptable in a professional workspace will not be tolerated within this project either 
+
+Unacceptable Behavior
+
+- Inappropriate language of any kind – no harassment of any nature (sexual, racist, ableist, etc.) 
+- Publishing private information without the individual’s explicit permission 
+- Comments of an inappropriate nature (i.e., political, personal, or derogatory attacks on an individual or group) 
+
+Our Responsibilities 
+
+As creators and contributors, we are responsible for upholding and maintaining the standards and code of conduct as stated here. Similarly, we retain the right to change and/or update the code of conduct as we see necessary. Creators and contributors maintain the right to delete, change, or update any inappropriate comments or content, as well as comments or content that do not directly pertain to the project. 
+
+Scope
+
+This code of conduct must be upheld in both the creation and continuation of the project within the digital space as well as any public presentation or representation of the project. Any content within the Slack project platform should mirror the code of conduct, as well as any content produced through any future platforms associated with the project. The creators and contributors retain the right to redefine or update any of the code of conduct. 
+
+Enforcement 
+
+Any breach of the code of conduct should instantly be reported by contacting Emma Zentarsky at emmazentarsky@gmail.com. All concerns and complaints will be investigated in a timely manner and will be responded to in an appropriate manner that the team sees fit. Any example of behavior or content by a contributor or creator that breaches the code of conduct will immediately be removed from the interface, and that individual will be removed from the project team. 
+
+Attribution 
+
+This code of conduct has been adapted from the Contributor Covenant Code of Conduct, available here: https://github.com/artf/grapesjs/blob/dev/CODE_OF_CONDUCT.md#contributor-covenant-code-of-conduct. 
