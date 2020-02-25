@@ -13,7 +13,6 @@ function startUp() {
             alert(this.id + "tocuh");
         }
     }, false);
-
 }
 
 //base working function - rudimentary
@@ -22,7 +21,7 @@ function pop_new_window(url)
 {
 	newwindow=window.open(url,'name','height=400,width=600');
     if (window.focus) {newwindow.focus()} //request to bring popup to front / over main page
-    setTimeout(function(){ 
+    setTimeout(function(){  //local function target
         newwindow.close() 
     }, 30000); //timer to close window 
 }
